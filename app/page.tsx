@@ -15,7 +15,7 @@ import {
 } from "@components/ui/table";
 import Link from "next/link";
 import { Book } from "@app-types/bookStore.types";
-import BookForm from "@components/BookForm";
+import BookForm from "@components/client/BookForm";
 
 export default function Home() {
   const { books, searchQuery, setBooks, setSearchQuery } = useBookStore();

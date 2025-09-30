@@ -23,8 +23,11 @@ export default function RootLayout({
             <Link href="/" className="mr-4 hover:underline">
               Home
             </Link>
-            <Link href="/about" className="hover:underline">
+            <Link href="/about" className="mr-4 hover:underline">
               About
+            </Link>
+            <Link href="/stats" className="hover:underline">
+              Statitics
             </Link>
           </div>
         </nav>
