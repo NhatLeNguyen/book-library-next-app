@@ -1,6 +1,6 @@
 import { notFound } from "next/navigation";
 import axios from "axios";
-import BackButton from "@components/BackButton";
+import BackButton from "@components/client/BackButton";
 
 async function getBook(id: string) {
   const res = await axios.get(`http://localhost:3000/api/books/${id}`);

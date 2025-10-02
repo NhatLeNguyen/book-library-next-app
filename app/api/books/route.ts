@@ -1,4 +1,4 @@
-import { BOOKS } from "app/constants/books";
+import { BOOKS } from "@constants/books";
 import { NextRequest, NextResponse } from "next/server";
 import { v4 as uuidv4 } from "uuid";
 

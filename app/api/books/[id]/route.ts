@@ -1,5 +1,5 @@
-import { BOOKS } from "app/constants/books";
-import { Book } from "../../../../types/bookStore.types";
+import { Book } from "@app-types/bookStore.types";
+import { BOOKS } from "@constants/books";
 import { NextRequest, NextResponse } from "next/server";
 
 let books: Book[] = [];
